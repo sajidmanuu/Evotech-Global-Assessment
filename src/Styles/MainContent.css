@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.main-content-div {
+    height: fit-content;
+    background-color: #E5EAEE;
+    padding: 1.5rem;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.d-flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.font-white {
+    color: #ffffff;
+}
+
+.tab-item {
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 10rem;
+}
+
+.tab-item.activeTab {
+    background-color: #50CD89;
+    color: #ffffff;
+}
+
+.tab-item-active {
+    background-color: #50CD89;
+}
+
+.tab-item:hover {
+    background-color: #50CD89;
+}
+
+.tab-item:active {
+    background-color: #50CD89;
+}
+
+.tab-content-icon {
+    background-color: #ffffff;
+}
+
+.tab-content-icon.activeImage {
+    background-color: #50CD89;
+}
+
+.tab-content-icon:hover {
+    background-color: #50CD89;
+}
+
+.tab-content-icon:active {
+    background-color: #50CD89;
+}
+
+.tab-item-2 {
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 10.8rem;
+    width: 75%;
+}
+
+.tab-text {
+    color: #B5B5C3;
+}
+
+.categories-div {
+    background-color: #F64E60;
+    border-radius: 12px;
+    padding: 12px;
+    height: 15rem;
+}
+
+.select-comp .ant-select-selector {
+    background-color: #f65c6b !important;
+    color: #ffffff;
+    border: none !important;
+    border-radius: 12px;
+}
+
+.tracking-component {
+    padding: 12px;
+}
+
+.activities-text {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.sales-text {
+    color: #80808F;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+
+.custom-steps {
+    margin-top: 12px;
+}
+
+.step-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #464E5F;
+}
+
+.step-description {
+    font-size: 12px;
+    color: #80808F;
+    margin-top: 8px;
+}
+
+.sales-progress-text {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #212121;
+    text-align: start;
+}
+
+.sales-progress-text-2 {
+    font-size: 13px;
+    line-height: 20px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.new-arrivals-text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #212121;
+    font-weight: 500;
+    text-align: left;
+}
+
+.sales-progress-description,
+.new-arrivals-sub-text {
+    font-size: 12px;
+    line-height: 18px;
+    color: #B5B5C3;
+    font-weight: 500;
+}
+
+.new-arrival-button {
+    background-color: #ffffff;
+    color: #B5B5C3;
+    border: none;
+    border-radius: 6px;
+}
+
+.new-arrival-button:hover {
+    background-color: #464E5F;
+    color: #ffffff;
+}
+
+.new-arrival-button:active {
+    background-color: #464E5F;
+    color: #ffffff;
+}
+
+.cart-image {
+    width: 90%;
+    height: 90%;
+}
+
+.new-arrival-icon-div {
+    height: 48px;
+    width: 48px;
+    background-color: #F3F6F9;
+    border-radius: 6px;
+}
+
+.d-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.amount-text {
+    text-align: end;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #464E5F;
+}
+
+.paid-text {
+    text-align: end;
+    font-size: 13px;
+    color: #B5B5C3;
+}
+
+.new-arrival-button.activeButton {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+
+    .step-description {
+        margin-top: 3px;
+    }
+
+}
